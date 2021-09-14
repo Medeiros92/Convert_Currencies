@@ -1,14 +1,15 @@
 //Recebendo dados do HTML
-const real = document.getElementsByName('Real').value
-const dolar = document.getElementsByName('Dolar')
 const botao = document.querySelector('#btn');
 const input = document.querySelector('#input');
 const resultado = document.querySelector('#res');
 const imagem = document.querySelector('.img-con');
+const quadroImg = document.querySelector('.imagem')
+
 
 botao.addEventListener('click', function(){
      getValRadio('opt')
-
+     
+     quadroImg.style.visibility = 'visible';
 })
 
 function getValRadio(name){
