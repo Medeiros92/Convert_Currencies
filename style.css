@@ -22,7 +22,6 @@
 }
 
 .seletor{
-    border: 1px solid black;
     height: 100px;
     width: 100px;
     margin:120px 80px ; 
@@ -33,7 +32,6 @@
 }
 
 .inp{
-    border: 1px solid black;
     margin: -180px 300px;
     height: 20px;
     width: 150px;
@@ -47,7 +45,6 @@
 }
 
 .txt{
-    border: 1px solid black;
     height: 40px;
     width: 600px;
     margin: 290px auto;
