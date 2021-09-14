@@ -16,11 +16,6 @@
     font-size:44px;
 }
 
-.container p {
-    font: bolder;
-    font-size: 20px;
-}
-
 .seletor{
     height: 100px;
     width: 100px;
@@ -47,5 +42,6 @@
 .txt{
     height: 40px;
     width: 600px;
-    margin: 290px auto;
+    margin-top: 290px;
+    margin-left: 50px;
 }
