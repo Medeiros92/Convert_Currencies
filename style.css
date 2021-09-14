@@ -16,10 +16,24 @@
     font-size:44px;
 }
 
+.imagem{
+    border:1px solid black;
+    height:130px;
+    width:200px;
+    margin-top: 40px;
+    margin-left: 250px;
+}
+
+.img-con{
+    height:130px;
+    width:200px;
+}
+
 .seletor{
     height: 100px;
     width: 100px;
-    margin:120px 80px ; 
+    margin-top:20px; 
+    margin-left: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly; 
@@ -27,7 +41,8 @@
 }
 
 .inp{
-    margin: -180px 300px;
+    margin-top: -80px;
+    margin-left: 300px;
     height: 20px;
     width: 150px;
 }
@@ -42,6 +57,6 @@
 .txt{
     height: 40px;
     width: 600px;
-    margin-top: 290px;
+    margin-top: 120px;
     margin-left: 50px;
 }

@@ -4,8 +4,8 @@ const dolar = document.getElementsByName('Dolar')
 const botao = document.querySelector('#btn');
 const input = document.querySelector('#input');
 const resultado = document.querySelector('#res');
+const imagem = document.querySelector('.img-con');
 
-console.log(real);
 botao.addEventListener('click', function(){
      getValRadio('opt')
 
@@ -18,9 +18,11 @@ const real = document.getElementsByName(name)
         if(real[i].checked){
              var val = real[i].value
         }if(val == '1'){
+            imagem.setAttribute('src', './image/eua.jpg')
             const price = parseFloat(input.value) / 5
             return resultado.innerHTML = `Valor Convertido: R$${price.toFixed(2)}`
         }else{
+            imagem.setAttribute('src', './image/brasil.jpg')
             const price = parseFloat(input.value) * 5
             return resultado.innerHTML = `Valor Convertido: R$${price.toFixed(2)}`
         }
